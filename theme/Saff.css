@@ -1,0 +1,9 @@
+:root{
+    --primary: #2CAE53;
+    --secondary: #1A1AF1;
+    --tritary: #E6992C;
+}
+
+.right h2:hover{
+    color: var(--secondary);
+}
