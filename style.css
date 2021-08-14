@@ -1,55 +1,18 @@
+@import "css/left.css";
+@import "css/right.css";
+@import "css/body.css";
+@import "css/phone.css";
+
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 body{
     background-color: sandybrown;
-}
-
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .8rem;
-    margin-bottom: 1rem;
-    font-size: 3.5rem;
-    background-color: forestgreen;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.content{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10rem;
+    width: 100vw;
 }
 
 a{
     text-decoration: none;
     color: black;
-}
-
-img{
-    width: 100%;
-}
-
-.left, .right{
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-right: 2rem;
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.left{
-    width: 40%;
-}
-.left p{
-    font-size: large;
-}
-.left h1{
-    margin-top: 1rem;
-}
-.left hr{
-    margin-top: .5rem;
-    margin-bottom: .5rem;
 }
 
 .partnerF:hover{
@@ -65,42 +28,7 @@ img{
     background-color: #2CAE53;
 }
 
-.right{
-    float: right;
-    width: 20%;
-}
-
-.right h2{
-    background-color: var(--primary);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding: .5rem;
-    text-align: center;
-}
-
-.right table{
-    width: 100%;
-    font-size: 1.5rem;
-}
-
-table tbody tr td:first-child{
-    background-color: var(--primary);
-    border-radius: 5px;
-}
-
-table tbody tr td p{
-    padding: .5rem;
-}
-
 ul li:last-of-type{
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 1200px){
-    .left{
-        width: 70%;
-    }
-    .right{
-        width: 30%;
-    }
-}

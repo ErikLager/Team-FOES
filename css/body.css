@@ -1,0 +1,29 @@
+img{
+    width: 100%;
+}
+
+.left, .right{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    background-color: forestgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}

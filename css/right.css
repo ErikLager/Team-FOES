@@ -1,0 +1,26 @@
+.right{
+    float: right;
+    width: 20%;
+}
+
+.right h2{
+    background-color: var(--primary);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: .5rem;
+    text-align: center;
+}
+
+.right table{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+table tbody tr td:first-child{
+    background-color: var(--primary);
+    border-radius: 5px;
+}
+
+table tbody tr td p{
+    padding: .5rem;
+}
