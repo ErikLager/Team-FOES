@@ -6,13 +6,3 @@
         width: 30%;
     }
 }
-
-@media screen and (max-width: 780px) {
-    .right img{
-        /* display: none; */
-    }
-
-    .content{
-        width: 100%;
-    }
-}
