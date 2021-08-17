@@ -1,8 +1,15 @@
 @media screen and (max-width: 1200px){
-    .left{
-        width: 70%;
+    .content, .right, .left{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 1rem;
     }
-    .right{
-        width: 30%;
+}
+
+@media screen and (max-width: 360px){
+    table{
+        font-size: .5rem;
     }
 }
