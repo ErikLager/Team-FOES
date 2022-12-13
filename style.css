@@ -28,6 +28,19 @@ a{
     background-color: #2CAE53;
 }
 
+.partnerJ:hover{
+    background-color:#df4306;
+}
+.partnerAsh:hover{
+    background-color:#b2beb5;
+}
+.partnerM:hover{
+    background-color:#faf0be;
+}
+.partnerN:hover{
+    background-color:#1ecbe1 ;
+}
+
 ul li:last-of-type{
     margin-bottom: 1rem;
 }
